@@ -1,0 +1,24 @@
+{
+  "name": "vibesafe",
+  "version": "1.0.0",
+  "description": "sasdfsf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidii2004/Vibesafe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidii2004/Vibesafe/issues"
+  },
+  "homepage": "https://github.com/sidii2004/Vibesafe#readme",
+  "dependencies": {
+    "@actions/core": "^3.0.0",
+    "@actions/github": "^9.0.0"
+  }
+}
