@@ -1,7 +1,7 @@
 const { execSync } = require('child_process');
 const https = require('https');
 
-const apiKey = process.env.ANTHROPIC_API_KEY_INPUT;
+const apiKey = (process.env.ANTHROPIC_API_KEY_INPUT || '').trim();
 const githubToken = process.env.GITHUB_TOKEN;
 const repo = process.env.GITHUB_REPOSITORY;
 const prNumber = process.env.PR_NUMBER;
